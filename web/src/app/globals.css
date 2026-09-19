@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+
+:root {
+  --bg: #f7f6f2;
+  --fg: #16181d;
+  --muted: #5f6470;
+  --panel: #ffffff;
+  --line: #e4e2da;
+  --accent: #1f4fd8;
+  --ok: #1a7f4b;
+  --ok-bg: #e5f5ec;
+  --warn: #9a5b00;
+  --warn-bg: #fff3dc;
+  --bad: #b3261e;
+  --bad-bg: #fde8e6;
+  --dispute: #6b3fa0;
+  --dispute-bg: #efe7fa;
+  --unknown: #5f6470;
+  --unknown-bg: #eceef2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0f1115;
+    --fg: #ecedef;
+    --muted: #9aa0ab;
+    --panel: #171a21;
+    --line: #2a2e38;
+    --accent: #7ea2ff;
+    --ok: #5fd08c;
+    --ok-bg: #12301f;
+    --warn: #f0b458;
+    --warn-bg: #33250c;
+    --bad: #ff8a80;
+    --bad-bg: #3a1613;
+    --dispute: #c7a7ff;
+    --dispute-bg: #281a3d;
+    --unknown: #9aa0ab;
+    --unknown-bg: #22252d;
+  }
+}
+
+body {
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+code,
+pre,
+.mono {
+  font-family: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+.prose-chat p {
+  margin: 0.4rem 0;
+}
+.prose-chat a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-chat ul,
+.prose-chat ol {
+  padding-left: 1.2rem;
+  margin: 0.4rem 0;
+}
+.prose-chat li {
+  margin: 0.15rem 0;
+}
+.prose-chat code {
+  background: var(--unknown-bg);
+  padding: 0.05rem 0.3rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.prose-chat table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  margin: 0.5rem 0;
+}
+.prose-chat th,
+.prose-chat td {
+  border: 1px solid var(--line);
+  padding: 0.25rem 0.5rem;
+  text-align: left;
+}

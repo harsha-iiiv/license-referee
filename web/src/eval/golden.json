@@ -1,0 +1,180 @@
+{
+  "_comment": "Golden set. `pairs` are (from → into) verdict expectations checked in the submitted report (project cases) or in the prose (question cases, via `mustMention` / `mustNotSay`). Expected verdicts come from scripts/data/rulings.json, which were verified against the cited authority pages.",
+  "cases": [
+    {
+      "id": "gplv2-apache",
+      "kind": "project",
+      "prompt": "Audit this project against its declared license. Report every dependency.\n\n```json\n{\"name\":\"kernel-tools\",\"license\":\"GPL-2.0-only\",\"dependencies\":{\"@grpc/grpc-js\":\"^1.10\",\"lodash\":\"^4\",\"yargs\":\"^17\"}}\n```",
+      "pairs": [
+        {"package": "@grpc/grpc-js", "expect": "incompatible"},
+        {"package": "lodash", "expect": "compatible"},
+        {"package": "yargs", "expect": "compatible"}
+      ],
+      "mustMention": ["GPL version 2", "patent"]
+    },
+    {
+      "id": "gplv3-apache",
+      "kind": "project",
+      "prompt": "Audit this project against its declared license. Report every dependency.\n\n```json\n{\"name\":\"kernel-tools\",\"license\":\"GPL-3.0-only\",\"dependencies\":{\"@grpc/grpc-js\":\"^1.10\",\"lodash\":\"^4\"}}\n```",
+      "pairs": [
+        {"package": "@grpc/grpc-js", "expect": "compatible"},
+        {"package": "lodash", "expect": "compatible"}
+      ]
+    },
+    {
+      "id": "apache-project-gpl-dep",
+      "kind": "project",
+      "prompt": "Audit this project against its declared license. Report every dependency.\n\n```json\n{\"name\":\"svc\",\"license\":\"Apache-2.0\",\"dependencies\":{\"express\":\"^4\",\"sharp\":\"^0.33\",\"pdfjs-dist\":\"^4\"}}\n```",
+      "pairs": [
+        {"package": "express", "expect": "compatible"},
+        {"package": "sharp", "expect": "compatible"},
+        {"package": "pdfjs-dist", "expect": "compatible"}
+      ]
+    },
+    {
+      "id": "mit-project-lgpl-dep",
+      "kind": "project",
+      "prompt": "Audit this project against its declared license. Report every dependency.\n\n```json\n{\"name\":\"desktop\",\"license\":\"MIT\",\"dependencies\":{\"@ffmpeg/ffmpeg\":\"^0.12\",\"react\":\"^19\"}}\n```",
+      "pairs": [
+        {"package": "@ffmpeg/ffmpeg", "expect": "compatible"},
+        {"package": "react", "expect": "compatible"}
+      ]
+    },
+    {
+      "id": "closed-source-lgpl-linking",
+      "kind": "project",
+      "prompt": "Audit this project against its declared license. Report every dependency.\n\n```json\n{\"name\":\"internal-saas\",\"license\":\"UNLICENSED\",\"dependencies\":{\"@img/sharp-libvips-linux-x64\":\"^1\",\"jackspeak\":\"^3\",\"react\":\"^19\"}}\n```",
+      "pairs": [
+        {"package": "@img/sharp-libvips-linux-x64", "expect": "conditional"},
+        {"package": "jackspeak", "expect": "compatible"},
+        {"package": "react", "expect": "compatible"}
+      ],
+      "mustMention": ["relink"]
+    },
+    {
+      "id": "mpl-into-mit",
+      "kind": "project",
+      "prompt": "Audit this project against its declared license. Report every dependency.\n\n```json\n{\"name\":\"widget\",\"license\":\"MIT\",\"dependencies\":{\"axe-core\":\"^4\",\"psl\":\"^1\"}}\n```",
+      "pairs": [
+        {"package": "axe-core", "expect": "conditional"},
+        {"package": "psl", "expect": "compatible"}
+      ],
+      "mustMention": ["file"]
+    },
+    {
+      "id": "unlicensed-dep",
+      "kind": "project",
+      "prompt": "Audit this project against its declared license. Report every dependency.\n\n```json\n{\"name\":\"app\",\"license\":\"MIT\",\"dependencies\":{\"react\":\"^19\",\"chalk\":\"^5\"}}\n```",
+      "pairs": [
+        {"package": "react", "expect": "compatible"},
+        {"package": "chalk", "expect": "compatible"}
+      ]
+    },
+    {
+      "id": "q-apache-gplv2",
+      "kind": "question",
+      "prompt": "My project is GPL-2.0-only. Can I add an Apache-2.0 dependency?",
+      "mustMention": ["not compatible", "GPL version 2"],
+      "mustNotSay": ["yes, you can"],
+      "expectVerdict": "incompatible"
+    },
+    {
+      "id": "q-apache-gplv2-or-later",
+      "kind": "question",
+      "prompt": "My project is licensed \"GPL-2.0-or-later\". Can I add an Apache-2.0 dependency, and what changes if I do?",
+      "mustMention": ["GPL-3.0"],
+      "expectVerdict": "conditional"
+    },
+    {
+      "id": "q-gpl-into-apache",
+      "kind": "question",
+      "prompt": "Can an Apache-2.0 project include a GPLv3 library?",
+      "mustMention": ["cannot"],
+      "expectVerdict": "incompatible"
+    },
+    {
+      "id": "q-lgpl-static",
+      "kind": "question",
+      "prompt": "We ship a closed-source app. Can we statically link an LGPL-2.1 library, and what do we owe?",
+      "mustMention": ["relink"],
+      "expectVerdict": "conditional"
+    },
+    {
+      "id": "q-gpl-separate-process",
+      "kind": "question",
+      "prompt": "Our MIT-licensed tool shells out to a GPLv3 command-line program over a pipe. Does our tool have to become GPL?",
+      "mustMention": ["separate"],
+      "expectVerdict": "conditional"
+    },
+    {
+      "id": "q-cc0-osi",
+      "kind": "question",
+      "prompt": "Is CC0 an open-source license? The OSI and the FSF seem to disagree.",
+      "mustMention": ["patent", "GPL"],
+      "expectVerdict": "disputed"
+    },
+    {
+      "id": "q-json-license",
+      "kind": "question",
+      "prompt": "A dependency uses the JSON license. Can I use it in my GPLv3 project?",
+      "mustMention": ["Good, not Evil"],
+      "expectVerdict": "incompatible"
+    },
+    {
+      "id": "q-epl2-gpl",
+      "kind": "question",
+      "prompt": "Can I combine EPL-2.0 code with GPL-3.0 code?",
+      "mustMention": ["Secondary License"],
+      "expectVerdict": "conditional"
+    },
+    {
+      "id": "q-mpl2-proprietary",
+      "kind": "question",
+      "prompt": "Can I use an MPL-2.0 library in a proprietary product without open-sourcing my code?",
+      "mustMention": ["file"],
+      "expectVerdict": "conditional"
+    },
+    {
+      "id": "q-gplv2-gplv3-mix",
+      "kind": "question",
+      "prompt": "Can I combine GPL-2.0-only code with GPL-3.0-only code in one program?",
+      "mustMention": ["not compatible"],
+      "expectVerdict": "incompatible"
+    },
+    {
+      "id": "q-sspl",
+      "kind": "question",
+      "prompt": "Is the SSPL open source, and can I use SSPL software inside a GPLv3 project?",
+      "mustMention": ["not an open source license"],
+      "expectVerdict": "incompatible"
+    },
+    {
+      "id": "q-bsd4",
+      "kind": "question",
+      "prompt": "Why is the original 4-clause BSD license a problem for a GPL project?",
+      "mustMention": ["advertising"],
+      "expectVerdict": "incompatible"
+    },
+    {
+      "id": "q-artistic",
+      "kind": "question",
+      "prompt": "Is the Artistic License 1.0 a free / open source license?",
+      "mustMention": ["vague"],
+      "expectVerdict": "disputed"
+    },
+    {
+      "id": "q-gpl3-static-mit",
+      "kind": "question",
+      "prompt": "My project is MIT licensed. Can I statically link a GPL-3.0-only library into my compiled binary and keep distributing it under MIT?",
+      "mustMention": ["relicense"],
+      "expectVerdict": "incompatible"
+    },
+    {
+      "id": "q-blueoak-gpl3",
+      "kind": "question",
+      "prompt": "Can I include a BlueOak-1.0.0 licensed dependency in my GPL-3.0-only project?",
+      "mustMention": ["patent"],
+      "expectVerdict": "compatible"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.next/
+dist/
+.sanity/
+.DS_Store
+*.log
+eval/results/*.json
+!eval/results/.gitkeep
+.agents/
+agent/
+skills-lock.json
+AGENTS.md

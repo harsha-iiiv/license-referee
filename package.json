@@ -1,0 +1,23 @@
+{
+  "name": "license-referee",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An agent that rules on open-source license compatibility for your dependency tree, backed by a Sanity Knowledge Base.",
+  "type": "module",
+  "scripts": {
+    "import": "tsx scripts/import.ts",
+    "import:check": "tsx scripts/import.ts --dry-run",
+    "mcp:check": "tsx scripts/mcp-check.ts",
+    "eval": "tsx eval/run.ts",
+    "test": "tsx --test scripts/*.test.ts eval/*.test.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@sanity/client": "^7.0.0",
+    "@types/node": "^22.7.4",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "yaml": "^2.6.0"
+  }
+}

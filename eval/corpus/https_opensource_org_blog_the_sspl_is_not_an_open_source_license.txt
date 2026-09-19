@@ -1,0 +1,163 @@
+The SSPL is Not an Open Source License &#8211; Open Source Initiative 
+ Skip to content 
+ Get involved 
+ About 
+ About Learn more about OSI&#8217;s mission, history, people, and programs.
+ Mission &#038; History 
+ Team 
+ Board of Directors 
+ Programs 
+ Financials & Annual Reports 
+ Sponsors 
+ Logo &#038; Trademark 
+ Contact us 
+ Featured Programs OSI Programs bring together our work to protect, advance, and strengthen Open Source. Read more 
+ Licensing 
+ Licensing Explore the list of OSI-Approved licenses and learn more about the license review process.
+ Open Source Definition 
+ Licenses 
+ License Review Process 
+ License API 
+ Open Standards Requirement 
+ ClearlyDefined 
+ Featured Licenses Browse the complete list of licenses approved by the OSI. Read more 
+ Open Source AI 
+ Open Source AI Learn more about Open Source AI, how do we define it, and its benefits to society.
+ Open Source AI 
+ OSAID 1.0 
+ Process 
+ Timeline 
+ Open Weights 
+ FAQ 
+ Checklist 
+ Endorsements 
+ Featured Open Source AI The definition that establishes the principles and requirements for an AI system that grant users the freedoms to use, study, modify, and share. Read more 
+ News 
+ News Explore the latest news, blog posts, newsletters, press mentions, and events from the OSI.
+ Blog 
+ Newsletter 
+ Press Mentions 
+ Events 
+ Featured OSI Newsletter sign-up Sign up for OSI&#039;s monthly newsletter and explore all past editions. Read more 
+ Get involved 
+ About 
+ About Learn more about OSI&#8217;s mission, history, people, and programs.
+ Mission &#038; History 
+ Team 
+ Board of Directors 
+ Programs 
+ Financials & Annual Reports 
+ Sponsors 
+ Logo &#038; Trademark 
+ Contact us 
+ Featured Programs OSI Programs bring together our work to protect, advance, and strengthen Open Source. Read more 
+ Licensing 
+ Licensing Explore the list of OSI-Approved licenses and learn more about the license review process.
+ Open Source Definition 
+ Licenses 
+ License Review Process 
+ License API 
+ Open Standards Requirement 
+ ClearlyDefined 
+ Featured Licenses Browse the complete list of licenses approved by the OSI. Read more 
+ Open Source AI 
+ Open Source AI Learn more about Open Source AI, how do we define it, and its benefits to society.
+ Open Source AI 
+ OSAID 1.0 
+ Process 
+ Timeline 
+ Open Weights 
+ FAQ 
+ Checklist 
+ Endorsements 
+ Featured Open Source AI The definition that establishes the principles and requirements for an AI system that grant users the freedoms to use, study, modify, and share. Read more 
+ News 
+ News Explore the latest news, blog posts, newsletters, press mentions, and events from the OSI.
+ Blog 
+ Newsletter 
+ Press Mentions 
+ Events 
+ Featured OSI Newsletter sign-up Sign up for OSI&#039;s monthly newsletter and explore all past editions. Read more 
+ Get Involved 
+ Open Main Menu 
+ January 19, 2021 Press Releases 
+ OSI 
+ The SSPL is Not an Open Source License
+ We’ve seen that several companies have abandoned their original dedication to the open source community by switching their core products from an open source license, one approved by the Open Source Initiative, to a “fauxpen” source license. The hallmark of a fauxpen source license is that those who made the switch claim that their product continues to remain “open” under the new license, but the new license actually has taken away user rights.  
+ The license du jour is the Server Side Public License. This license was submitted to the Open Source Initiative for approval but later withdrawn by the license steward when it became clear that the license would not be approved. 
+ Open source licenses are the foundation for the open source software ecosystem, a system that fosters and facilitates the collaborative development of software. Fauxpen source licenses allow a user to view the source code but do not allow other highly important rights protected by the Open Source Definition , such as the right to make use of the program for any field of endeavor. By design, and as explained by the most recent adopter , Elastic, in a post it unironically titled “ Doubling Down on Open ,” Elastic says that it now can “restrict cloud service providers from offering our software as a service” in violation of OSD6. Elastic didn’t double down, it threw its cards in. 
+ And the software commons are now poorer for it. The Elastic projects were offered under the Apache license. Outside contributors donated time and energy with the understanding that their work was going towards the greater good, the public software commons. Now, instead, their contributions are embedded in a proprietary product. If they want to enjoy the fruits of their own and their co-contributors’ labor, they have to agree to a proprietary license or fork. 
+ This is not to say that Elastic, or any company, shouldn’t adopt whatever license is appropriate for its own business needs. That may be a proprietary license, whether closed source or with source available. The Open Source Initiative strongly believes that the open source development model is the better way to develop software and results in a superior product. But we also recognize that it is not the right choice for everyone in all cases. A company may find that its business needs and direction have changed over time, such that the original license choice is interfering with their business model. A switch may be the right choice. 
+ But Elastic’s relicensing is not evidence of any failure of the open source licensing model or a gap in open source licenses. It is simply that Elastic’s current business model is inconsistent with what open source licenses are designed to do. Its current business desires are what proprietary licenses (which includes source available) are designed for. 
+ What a company may not do is claim or imply that software under a license that has not been approved by the Open Source Initiative, much less a license that does not meet the Open Source Definition, is open source software. It’s deception, plain and simple, to claim that the software has all the benefits and promises of open source when it does not. 
+ Signed, The OSI Board of Directors 
+ LCA: Catch Talks by OSI Staff and Community 
+ OSI and Friends at Virtual FOSDEM 
+ Keep up with Open Source
+ Please leave this field empty. 
+ &#916; 
+ We’ll never share your details and you can unsubscribe with a click!
+ Get involved 
+ Mastodon 
+ Twitter 
+ LinkedIn 
+ Reddit 
+ About
+ Misson &#038; History 
+ Team 
+ Board of Directors 
+ Programs 
+ Financials & Annual Reports 
+ Sponsors 
+ Logo &#038; Trademark 
+ Contact us 
+ Licensing
+ Open Source Definition 
+ Licenses 
+ License Review Process 
+ License API 
+ Open Standards Requirement 
+ ClearlyDefined 
+ Open Source AI
+ Process 
+ Timeline 
+ Open Weights 
+ FAQ 
+ Checklist 
+ Endorsements 
+ News
+ Blog 
+ Newsletter 
+ Press Mentions 
+ Events 
+ The content on this website, of which Opensource.org is the author, is licensed under a  Creative Commons Attribution 4.0 International License . Opensource.org is not the author of any of the licenses reproduced on this site. Questions about the copyright in a license should be directed to the license steward. Read our Privacy Policy 
+ Proudly powered by WordPress. Hosted by Pressable. 
+ Manage Cookie Consent
+ To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+ Functional 
+ Functional 
+ Always active 
+ The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. 
+ Preferences 
+ Preferences 
+ The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. 
+ Statistics 
+ Statistics 
+ The technical storage or access that is used exclusively for statistical purposes. 
+ The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. 
+ Marketing 
+ Marketing 
+ The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes. 
+ Manage options 
+ Manage services 
+ Manage {vendor_count} vendors 
+ Read more about these purposes 
+ Accept 
+ Deny 
+ View preferences 
+ Save preferences 
+ View preferences 
+ {title} 
+ {title} 
+ {title} 
+ Manage consent

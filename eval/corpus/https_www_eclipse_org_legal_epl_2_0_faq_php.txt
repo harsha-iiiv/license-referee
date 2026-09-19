@@ -1,0 +1,218 @@
+EPL-2.0 FAQ | The Eclipse Foundation 
+ Skip to content 
+ Join us 
+ What we do 
+ Resources 
+ About us 
+View my account 
+Edit my account 
+Manage cookies 
+ Download 
+ Join us
+ Membership
+ Become a member 
+ Review membership fees 
+ Access member portal 
+ Sponsorship
+ Support us as a sponsor 
+ Contribute
+ How to contribute 
+ Bring us your project 
+ Committer training 
+ Collaborate with us
+ Join an existing industry collaboration 
+ Start a new collaboration 
+ What we do
+ Projects
+ Explore projects 
+ View specifications 
+ Industry collaborations
+ Explore collaborations 
+ Join a working group 
+ Join an interest group 
+ Read success stories 
+ Core services
+ Explore core services 
+ Ensure project security 
+ Key initiatives
+ Embedded & IoT 
+ Enterprise Java 
+ Data sovereignty 
+ Security & privacy 
+ Developer tools & IDEs 
+ AI & emerging technologies 
+ Automotive & mobility 
+ Policy & compliance 
+ Strategic services
+ Transform research into open source 
+ Engage professional services 
+ Build your OSPO 
+ Resources
+ What's happening
+ Read our blog 
+ Join mailing lists 
+ Get news updates 
+ Subscribe to newsletter 
+ Explore OSS global voices 
+ Events
+ Explore events 
+ Join a community meetup 
+ Attend a webinar 
+ Join OCX 
+ Developer resources
+ Explore projects hub 
+ Attend office hours 
+ Report a vulnerability 
+ View known vulnerabilities 
+ Use the security handbook 
+ Industry insights
+ View case studies 
+ View whitepapers 
+ View surveys & reports 
+ Marketplaces
+ Adoptium 
+ Eclipse IDE 
+ Open VSX 
+ About us
+ The Foundation
+ About 
+ Meet the team 
+ Board & governance 
+ Our members
+ Become a member 
+ View member directory 
+ Access member portal 
+ Sponsorship
+ Become a sponsor 
+ Sponsor directory 
+ More
+ Join our team 
+ Explore our brand 
+ Contact us 
+ Membership
+ Become a member 
+ Review membership fees 
+ Access member portal 
+ Sponsorship
+ Support us as a sponsor 
+ Contribute
+ How to contribute 
+ Bring us your project 
+ Committer training 
+ Collaborate with us
+ Join an existing industry collaboration 
+ Start a new collaboration 
+ Projects
+ Explore projects 
+ View specifications 
+ Industry collaborations
+ Explore collaborations 
+ Join a working group 
+ Join an interest group 
+ Read success stories 
+ Core services
+ Explore core services 
+ Ensure project security 
+ Key initiatives
+ Embedded & IoT 
+ Enterprise Java 
+ Data sovereignty 
+ Security & privacy 
+ Developer tools & IDEs 
+ AI & emerging technologies 
+ Automotive & mobility 
+ Policy & compliance 
+ Strategic services
+ Transform research into open source 
+ Engage professional services 
+ Build your OSPO 
+ What's happening
+ Read our blog 
+ Join mailing lists 
+ Get news updates 
+ Subscribe to newsletter 
+ Explore OSS global voices 
+ Events
+ Explore events 
+ Join a community meetup 
+ Attend a webinar 
+ Join OCX 
+ Developer resources
+ Explore projects hub 
+ Attend office hours 
+ Report a vulnerability 
+ View known vulnerabilities 
+ Use the security handbook 
+ Industry insights
+ View case studies 
+ View whitepapers 
+ View surveys & reports 
+ Marketplaces
+ Adoptium 
+ Eclipse IDE 
+ Open VSX 
+ The Foundation
+ About 
+ Meet the team 
+ Board & governance 
+ Our members
+ Become a member 
+ View member directory 
+ Access member portal 
+ Sponsorship
+ Become a sponsor 
+ Sponsor directory 
+ More
+ Join our team 
+ Explore our brand 
+ Contact us 
+ Home 
+ Eclipse Foundation Legal … 
+ Eclipse Public License 2.0 (EPL) 
+ EPL-2.0 FAQ
+ Legal ECA About 
+ Sign 
+ Validation tool 
+ EPL-2.0 About 
+ Plain HTML 
+ Plain text 
+ PDF 
+ FAQ 
+ EPL-1.0 About 
+ Plain HTML 
+ Plain text 
+ FAQ 
+ Licenses Approved 3rd party 
+ Non approved 
+ File headers 
+ Docs & examples 
+ Specifications Specifications process 
+ Specifications operations 
+ Specification license 
+ TCK license 
+ Eclipse Foundation
+ About 
+ Projects 
+ Collaborations 
+ Membership 
+ Sponsor 
+ Legal
+ Privacy Policy 
+ Terms of Use 
+ Compliance 
+ Code of Conduct 
+ Legal Resources 
+ Manage Cookies 
+ More
+ Report a Vulnerability 
+ Service Status 
+ Contact Us 
+ Support 
+ See what we're up to
+ Stay up to date
+ Subscribe to our newsletter
+ Copyright &copy; Eclipse Foundation AISBL. All rights reserved.
+ Privacy policy 
+ Terms of use 
+ Compliance 
+ Legal
